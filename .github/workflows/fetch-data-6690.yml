@@ -19,7 +19,7 @@ jobs:
         run: |
           curl -s -H "X-Api-Authentication: 4670f468049bbee2260" \
             "https://online.nsmart.rs/publicapi/v1/announcement/announcement.php?ibfm=TM00000&station_uid=6690" \
-            -o data.json
+            -o data-6690.json
 
       - name: Commit and push data.json
         run: |
